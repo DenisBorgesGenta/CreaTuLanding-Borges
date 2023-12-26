@@ -1,11 +1,14 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBar from './components/NavBar/NavBar';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 
-import Button from './assets/components/Button'
 
 function App() {
 
   return (
     <>
-      <Button />
+     <NavBar />
+     <ItemListContainer greetingMessage= 'Bienvenidx a nuestro prelanzamiento.'/>
     </>
   )
 }
