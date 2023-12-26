@@ -4,7 +4,7 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import CartWidget from '../CartWidget/CartWidget';
+import {CartWidget} from '../CartWidget/CartWidget';
 
 function NavBar() {
   return (
@@ -33,6 +33,7 @@ function NavBar() {
             <Nav.Link href="#" disabled>
               About us
             </Nav.Link>
+            <CartWidget/>
           </Nav>
           <Form className="d-flex">
             <Form.Control
@@ -49,4 +50,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export {NavBar};

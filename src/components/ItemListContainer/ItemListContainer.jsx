@@ -6,4 +6,4 @@ const ItemListContainer = ({greetingMessage}) => {
   )
 }
 
-export default ItemListContainer
+export {ItemListContainer}
